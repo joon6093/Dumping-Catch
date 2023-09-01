@@ -20,4 +20,4 @@ TTS(Text to Speech)를 통해 사용자가 입력한 말을 스피커로 출력�
 
 
 ## 추가 자료 
-[Velog 보고서 주소](https://velog.io/@joon6093/series/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-IOT%EB%AC%B4%ED%88%AC%EC%9E%A1pythonhtml)
+[보고서 링크](https://github.com/joon6093/Dumping-Catch/tree/main/Document)
