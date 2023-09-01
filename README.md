@@ -1,10 +1,10 @@
 # Dumping-Catch
-![image](https://github.com/joon6093/Dumping-Catch/assets/118044367/3b56420b-1928-4045-acc0-0932ce503f33)
-
+![image](https://github.com/joon6093/Dumping-Catch/assets/118044367/c943c90a-b636-4426-9610-f86a8d68026e)
 > Dumping-Catch는 실시간으로 해당 위치에 대한 정보도 알 수 있고, 경고 방송을 통해 쓰레기 무단투기의 수를 줄일 수 있다.
 
 ## 기술 스택
-![image](https://github.com/joon6093/Dumping-Catch/assets/118044367/500d9131-4381-462f-a3fe-88ffa90e5cb7)
+![image](https://github.com/joon6093/Dumping-Catch/assets/118044367/0b5dd121-e30c-4318-a175-4106c4bfe409)
+
 ## 구현 기능
 ### 1. 주위사람 감지 후 사진촬영 및 LED작동
 초음파 센서나 적외선 센서로 사람을 감지한 후 사진을 촬영하고 LED로 밝게 할 수 있도록 하는 기능.
