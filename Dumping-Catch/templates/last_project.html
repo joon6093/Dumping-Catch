@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>{{title}}</title>
+		<meta http-equiv="refresh" content="100">
+	</head>
+	
+	<body>
+		<div style="text-align:center">
+		<img src="{{ url_for('video_feed') }}" width="780" height="780"/>
+		<font size="10"><span style="color:blue"><h3>humidity:{{hum}}%</h3></span></font>
+		<font size="10"><span style="color:red"><h2>temperature:{{tempis}}C</h2></span></font>
+		<font size="10"><span style="color:blue"><h4>weather:{{weather}}</h4></span></font>
+		<font size="10"><span style="color:blue"><h4>preci:{{preci}}</h4></span></font>
+		<font size="10"><span style="color:blue"><h4>dust:{{dust}}</h4></span></font>
+		
+		{%for image in image_list%}
+		{% if True %}
+		<img src="{{ url_for('static', filename = image)}}" width="300" height="300"/>
+		{% endif %}
+		<font size="1"><span style="color:blue"><h4>'{{image}}'</h4></span></font>
+		{% endfor %}
+		
+		<form method="POST">
+		<input type="submit" value="HORIZON_RIGHT" id="HORIZON_RIGHT" name="HORIZON_RIGHT" />
+		<input type="submit" value="HORIZON_CENTER" id="HORIZON_CENTER" name="HORIZON_CENTER" />
+		<input type="submit" value="HORIZON_LEFT" id="HORIZON_LEFT" name="HORIZON_LEFT" />
+		
+		<input type="submit" value="VERTICAL_UP" id="VERTICAL_UP"name="VERTICAL_UP" />
+		<input type="submit" value="VERTICAL_CENTER" id="VERTICAL_CENTER" name="VERTICAL_CENTER"/>
+		<input type="submit" value="VERTICAL_DOWN" id="VERTICAL_DOWN" name="VERTICAL_DOWN"/>
+		
+		<input type="text" value="하고싶은말을 적어주세요" id="speaker_text" name="speaker_text" />
+		<input type="submit" value="speaker_button" id="speaker_button" name="speaker_button"/>
+		</form>
+		
+		</div>	
+	</body>
+</html>
